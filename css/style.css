@@ -1,0 +1,25 @@
+/* degug */
+[class*="col-"]{
+  min-height: 150px;
+  background-color: pink;
+  border: solid 1px #000;
+}
+
+.part > a{
+  color:white;
+  text-decoration: none;
+}
+
+
+
+.part1 > a{
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.part1 > a{
+  padding-top: 20px;
+}
