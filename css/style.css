@@ -1,16 +1,14 @@
 /* degug */
 [class*="col-"]{
-  min-height: 150px;
+  min-height: 60px;
   background-color: pink;
   border: solid 1px #000;
 }
 
-.part > a{
+/* .part > a{
   color:white;
   text-decoration: none;
 }
-
-
 
 .part1 > a{
   display: inline-block;
@@ -22,4 +20,54 @@
 
 .part1 > a{
   padding-top: 20px;
+} */
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+header .navbar-default{
+  background-color: rgb(38, 77, 115);
+  height: 100px;
+  margin-bottom: 0;
+  position: fixed;
+  width:100%;
+  z-index: 50;
+}
+
+header .navbar.navbar-default .navbar-header >.navbar-brand{
+  padding-left: 200px;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+header .navbar.navbar-default .nav.navbar-nav.navbar-right{
+  padding-right: 200px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+header .navbar-default .navbar-nav > li > a{
+  color: white;
+  line-height: 60px;
+}
+
+.center{
+  margin-top:40px;
+}
+
+.livre{
+  background-color: #1abc9c;
+}
+
+
+.livre .imagen{
+  padding-top: 100px;
+  padding-bottom: 30px;
+  height: 350px;
+  width: 300px;
+  c
 }
